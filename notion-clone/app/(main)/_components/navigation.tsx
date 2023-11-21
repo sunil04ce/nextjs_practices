@@ -15,7 +15,7 @@ import { useMediaQuery } from "usehooks-ts";
 import UserItem from "./user-items";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
-import Item from "./item";
+import { Item } from "./item";
 import { toast } from "sonner";
 import DocumentList from "./document-list";
 
@@ -140,9 +140,6 @@ const Navigation = () => {
           <Item onClick={handleCreate} label="New Page" icon={PlusCircle} />
         </div>
         <div className="mt-4">
-          {/* {documents?.map((document) => (
-            <p key={document._id}>{document.title}</p>
-          ))} */}
           <DocumentList />
         </div>
         <div
