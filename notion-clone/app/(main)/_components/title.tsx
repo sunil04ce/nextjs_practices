@@ -5,6 +5,7 @@ import { api } from "@/convex/_generated/api";
 import { useRef, useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
 
 interface TitleProps {
   initialData: Doc<"documents">;
@@ -66,6 +67,10 @@ const Title = ({ initialData }: TitleProps) => {
       )}
     </div>
   );
+};
+
+Title.Skeleton = function TitleSkeleton() {
+  return <Skeleton className="h-6 w-20 rounded-md" />;
 };
 
 export default Title;
