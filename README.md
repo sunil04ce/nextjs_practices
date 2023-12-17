@@ -1,2 +1,2 @@
-# nextjs_practices
-Nextjs notion clone app using tailwind css, zustand, convex, edgestore, clerk 
+# Notion clone - Note app
+Nextjs notion clone app using React, tailwind, zustand, convex, edgestore, clerk 
