@@ -1,2 +1,2 @@
 # nextjs_practices
-Nextjs practice projects
+Nextjs notion clone app using tailwind css, zustand, convex, edgestore, clerk 
